@@ -224,6 +224,15 @@
   padding-top: 1rem;
 }
 
+.underline {
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem;
+  height: 2px;
+  background-color: orangered;
+}
+
 .program .underline {
   width: 15%;
   margin: 0 auto;
@@ -594,7 +603,7 @@
 }
 
 .mobile-partners {
-  background: rgb(62, 62, 62, 0.98);
+  background: rgb(62, 62, 62);
 }
 
 .mobile-partners .underline {
@@ -690,19 +699,22 @@
 
 .footer {
   width: 100%;
-  background: #3e3e3e;
+  background: #fff;
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 18vh;
   justify-content: center;
 }
 
 .footer .container {
   width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
   display: flex;
   margin: 2px auto;
   color: #000;
-  background: #3e3e3e;
+  background: #fff;
   transform: translateY(-10px);
 }
 
@@ -720,7 +732,7 @@
   text-align: center;
   align-items: center;
   margin-top: 0.8rem;
-  color: #fff;
+  color: #000;
   font-size: 8px;
   font-weight: 500;
   width: 40%;
@@ -728,6 +740,8 @@
 
 .footer .part-home .container {
   background: #fff;
+  width: 100%;
+  height: 20vh;
 }
 
 .part-home .partners p {
@@ -923,7 +937,7 @@
   }
 
   .program {
-    height: 65vh;
+    height: 75vh;
     width: 100vw;
     transform: translateY(-10vh);
     margin: auto auto;
@@ -1007,7 +1021,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #3e3e3e;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1043,7 +1057,7 @@
   }
 
   #about-footer {
-    transform: translateY(170vh);
+    transform: translateY(180vh);
   }
 
   .part-home .partners p {
