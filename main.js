@@ -169,7 +169,7 @@ if (moreBtn != null) {
         
                 <section class="footer part-home">
                     <div class="container">
-                        <img src="images/cck-logo1 1.PNG" alt="soccer summit logo">
+                        <img src="images/cck-logo1.PNG" alt="soccer summit logo">
                         <p>2023 Global soccer summit<br> Kisumu International
                         sports zone Arena. </p>
                     </div>
