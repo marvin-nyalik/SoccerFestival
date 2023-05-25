@@ -123,9 +123,9 @@ and ideas
 
 I would like to thank the following for inspiring complete development of
 this project
-1. Mahdi Noor
-2. Emmanuel Kipchoge
-3. Samuel Minguti
+1. Cindy Chin - Author of the original Creative Commons Design.
+2. Arnold Nekemiah - Seasoned Collaborator in Software Development
+3. Samuel Minguti - Stand-up team mate at microverseinc
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
