@@ -4,6 +4,16 @@ const { body } = document;
 const closeMenu = document.getElementById('close-mobile-menu');
 const moreBtn = document.getElementById('more-speakers');
 
+hamburger.addEventListener('click', () => {
+  mobileMenu.style.display = 'block';
+  body.style.overflow = 'hidden';
+});
+
+closeMenu.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
+  body.style.overflow = 'scroll';
+});
+
 function showMoreSpeakers() {
   moreBtn.style.display = 'none';
   const speakerSection = document.getElementsByClassName('speakers')[0];
@@ -53,15 +63,6 @@ function showMoreSpeakers() {
   });
 }
 
-hamburger.addEventListener('click', () => {
-  mobileMenu.style.display = 'block';
-  body.style.overflow = 'hidden';
-});
-
-closeMenu.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-  body.style.overflow = 'scroll';
-});
 
 if (moreBtn != null) {
   moreBtn.addEventListener('click', showMoreSpeakers);
@@ -166,7 +167,6 @@ if (moreBtn != null) {
                         <img src="images/air-logo.PNG" alt="mozilla logo">
                     </div>
                 </section>
-        
                 <section class="footer part-home">
                     <div class="container">
                         <img src="images/cck-logo1.PNG" alt="soccer summit logo">
